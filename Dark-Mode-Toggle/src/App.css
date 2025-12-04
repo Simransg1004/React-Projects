@@ -1,0 +1,38 @@
+:root {
+  --primary-blue: rgb(0, 0, 255);
+  --secondary-blue: rgb(96, 96, 182);
+
+  --text-primary-light: black;
+  --text-primary-dark: white;
+
+  --text-secondary-light: rgb(70, 70, 70);
+  --text-secondary-dark: rgb(160, 160, 160);
+
+  --bg-primary-light: white;
+  --bg-primary-dark: black;
+
+  --bg-secondary-light: rgb(199, 171, 171);
+  --bg-secondary-dark: rgb(46, 46, 46);
+
+  --bg-navbar-light: rgb(104, 104, 255);
+  --bg-navbar-dark: rgb(29, 29, 58);
+}
+
+
+
+.light-theme {
+  background-color: var(--bg-primary-light) ;
+  color: var(--text-primary-light);
+  
+}
+
+.dark-theme {
+    background-color: var(--bg-secondary-dark) !important;
+    color: var(--text-primary-dark) !important;
+}
+
+button {
+    margin: 10px;
+    padding: 4px;
+    font-size: medium
+}
