@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  background-image: linear-gradient(to bottom, #4e54c8, #8f94fb);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container { 
+  background-color: #8f94fb;
+  width: 50vw;
+  height: 50vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 10px;
+}
